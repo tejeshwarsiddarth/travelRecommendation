@@ -24,7 +24,26 @@ nav a:hover{
     color: darkgreen;
 }
 
-.content{
-    align-items: start;
-    place-items: center;
+h1{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-style: italic;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* text-transform: uppercase; */
+    position: relative;
+    top: -10px;
+    
+}
+
+.content p{
+    max-width: 500px;      /* Controls the width for nice wrapping */
+  margin-left: 500px;
+  margin-top: -40px;
+  padding: 20px 30px;    /* Adds internal spacing */
+  text-align: center;      /* Makes sure lines are left-aligned */
+  background: rgba(255,255,255,0); /* No visible background, adjust opacity if needed */
+  font-size: 1.1em;      /* Optional: Control font size */
+  color: #222;           /* Dark text color for readability */
+  box-sizing: border-box;
 }

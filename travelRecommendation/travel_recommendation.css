@@ -25,7 +25,7 @@ nav a:hover{
 }
 
 h1{
-    color: white;
+    color: rgb(149, 28, 28);
     text-align: center;
     font-size: 5rem;
     font-style: italic;
@@ -46,6 +46,9 @@ h1{
   font-size: 1.1em;      /* Optional: Control font size */
   color: #222;           /* Dark text color for readability */
   box-sizing: border-box;
+}
+h2{
+    color: #00CFFF;
 }
 .team-section {
   display: flex;
@@ -70,3 +73,75 @@ h1{
   min-width: 180px;
   text-align: center;
 }
+
+#bodycon {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  margin: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+
+.contact-form {
+    margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0,0,0,0.4);
+  padding: 40px 40px 28px 40px;
+  border-radius: 12px;
+  min-width: 320px;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.contact-form label {
+  color: #fff;
+  font-size: 1.1em;
+  margin-top: 16px;
+  margin-bottom: 5px;
+  align-self: flex-start;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1em;
+  background: rgba(255,255,255,0.90);
+  color: #111;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px 0;
+  font-size: 1.12em;
+  background: #17899b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+

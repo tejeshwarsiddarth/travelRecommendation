@@ -47,3 +47,26 @@ h1{
   color: #222;           /* Dark text color for readability */
   box-sizing: border-box;
 }
+.team-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  color: #fff;
+  justify-content: center;
+}
+.team-title {
+  min-width: 120px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.team-row {
+  display: flex;
+  gap: 20px;
+}
+.member-card {
+  background: rgba(0,0,0,0.5);
+  padding: 15px 20px;
+  border-radius: 8px;
+  min-width: 180px;
+  text-align: center;
+}

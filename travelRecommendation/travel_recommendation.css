@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    background-color: wheat;
+    color: white;
+    justify-content: space-between;
+    align-items: center;    
+}
+body {
+    margin: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+  }
+.nav-links{
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+.content{
+    align-items: start;
+    place-items: center;
+}
